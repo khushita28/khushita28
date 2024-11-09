@@ -8,6 +8,6 @@
 <br>
 💞️ Open to collaborations in ML/AI, data visualization, and full-stack projects
 <br>
-📫 Reach me at kjoshi@wpi.edu or LinkedIn
+📫 Reach me at kjoshi@wpi.edu
 <br>
 
