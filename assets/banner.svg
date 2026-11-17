@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Khushita Joshi — Forward Deployed AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f17"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.85" cy="0.2" r="0.5">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.1" cy="1" r="0.5">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .name { font: 700 64px -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; letter-spacing: -1.5px; fill: #f8fafc; }
+      .role { font: 500 22px -apple-system, "Segoe UI", Inter, Helvetica, Arial, sans-serif; letter-spacing: 4px; fill: url(#accent); }
+      .tag  { font: 400 17px ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; fill: #94a3b8; }
+      .lbl  { font: 500 11px ui-monospace, SFMono-Regular, Consolas, monospace; fill: #64748b; letter-spacing: 1px; }
+      .edge { stroke: url(#accent); stroke-width: 1.4; stroke-opacity: 0.45; fill: none; stroke-dasharray: 4 6; animation: flow 3s linear infinite; }
+      .node { fill: #0b0f17; stroke-width: 2; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .d1 { animation-delay: .4s } .d2 { animation-delay: .8s } .d3 { animation-delay: 1.2s } .d4 { animation-delay: 1.6s }
+      @keyframes flow { to { stroke-dashoffset: -40; } }
+      @keyframes pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .edge, .pulse { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glow1)"/>
+    <rect width="1200" height="320" fill="url(#glow2)"/>
+
+    <!-- agent graph motif -->
+    <g transform="translate(790 60)">
+      <path class="edge" d="M60 100 C 130 100, 130 30, 200 30"/>
+      <path class="edge" d="M60 100 C 130 100, 130 170, 200 170"/>
+      <path class="edge" d="M220 30 C 280 30, 290 100, 330 100"/>
+      <path class="edge" d="M220 170 C 280 170, 290 100, 330 100"/>
+      <path class="edge" d="M210 45 L 210 155"/>
+
+      <g class="pulse"><circle class="node" cx="50" cy="100" r="11" stroke="#a78bfa"/><circle cx="50" cy="100" r="4" fill="#a78bfa"/></g>
+      <g class="pulse d1"><circle class="node" cx="210" cy="30" r="11" stroke="#818cf8"/><circle cx="210" cy="30" r="4" fill="#818cf8"/></g>
+      <g class="pulse d2"><circle class="node" cx="210" cy="170" r="11" stroke="#818cf8"/><circle cx="210" cy="170" r="4" fill="#818cf8"/></g>
+      <g class="pulse d3"><circle class="node" cx="340" cy="100" r="11" stroke="#22d3ee"/><circle cx="340" cy="100" r="4" fill="#22d3ee"/></g>
+
+      <text class="lbl" x="50" y="130" text-anchor="middle">query</text>
+      <text class="lbl" x="210" y="0" text-anchor="middle">retrieve</text>
+      <text class="lbl" x="210" y="205" text-anchor="middle">tools · mcp</text>
+      <text class="lbl" x="340" y="130" text-anchor="middle">answer</text>
+    </g>
+
+    <!-- text -->
+    <text class="role" x="72" y="104">FORWARD DEPLOYED AI ENGINEER</text>
+    <text class="name" x="68" y="178">Khushita Joshi</text>
+    <rect x="72" y="204" width="84" height="3" rx="1.5" fill="url(#accent)"/>
+    <text class="tag" x="72" y="250">RAG · Multi-agent systems · MCP · LLM evaluation</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
