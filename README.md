@@ -19,8 +19,6 @@
 
 <br/>
 
-<img src="assets/profile.png" align="right" width="210" alt="Khushita Joshi"/>
-
 ### ✦ About
 
 I'm a **Forward Deployed AI Engineer** who sits between the business and the model. I learn how a team actually works, find the steps where AI earns its place, and ship the system end to end.
@@ -30,8 +28,6 @@ Right now that means **RAG, multi-agent workflows and AI copilots for banking an
 - 🎓 &nbsp;M.S. Computer Science, **Worcester Polytechnic Institute** (2025)
 - 🏅 &nbsp;**Claude Certified Architect, Professional**
 - 🧭 &nbsp;5+ years across software engineering → machine learning → enterprise GenAI
-
-<br clear="right"/>
 
 ### ✦ Impact at a glance
 
